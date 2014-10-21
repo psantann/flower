@@ -31,6 +31,7 @@ classes = """
     Topic :: System :: Distributed Computing
     Programming Language :: Python
     Programming Language :: Python :: 2
+    Programming Language :: Python :: 2.6
     Programming Language :: Python :: 2.7
     Programming Language :: Python :: 3
     Programming Language :: Python :: 3.3
@@ -48,7 +49,7 @@ if sys.version_info < (3, 0):
 
 setup(
     name='flower',
-    version='0.8.6',
+    version='0.8.7',
     description='Celery Flower',
     long_description=open('README.rst').read(),
     author='Mher Movsisyan',
