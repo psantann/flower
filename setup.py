@@ -48,7 +48,7 @@ if sys.version_info < (3, 0):
 
 setup(
     name='flower',
-    version=0.8.2,
+    version='0.8.2',
     description='Celery Flower',
     long_description=open('README.rst').read(),
     author='Mher Movsisyan',
