@@ -48,12 +48,12 @@ if sys.version_info < (3, 0):
 
 setup(
     name='flower',
-    version=get_package_version(),
+    version=0.8.2,
     description='Celery Flower',
     long_description=open('README.rst').read(),
     author='Mher Movsisyan',
     author_email='mher.movsisyan@gmail.com',
-    url='https://github.com/mher/flower',
+    url='https://github.com/psantann/flower',
     license='BSD',
     classifiers=classifiers,
     packages=find_packages(exclude=['tests', 'tests.*']),
